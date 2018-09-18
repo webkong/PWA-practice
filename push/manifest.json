@@ -1,0 +1,22 @@
+{
+  "name": "Progressive web app",
+  "short_name": "PW",
+  "start_url": "./index.html",
+  "theme_color": "#FFDF00",
+  "background_color": "#FFDF00",
+  "applicationServerKey": "111111",
+  "icons": [{
+      "src": "./image.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./image.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "permissions": [
+    "gcm"
+  ]
+}
